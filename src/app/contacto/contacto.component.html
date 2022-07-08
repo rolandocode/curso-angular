@@ -1,0 +1,5 @@
+<h3>{{titulo}}</h3>
+<h4 *ngIf="parametro !== undefined">Parametro : {{parametro}}</h4>
+
+<h4 *ngIf="parametro == undefined"><button (click)="redirigir()">Ir a la página con parametro</button></h4>
+<h4 *ngIf="parametro == undefined"><button (click)="redirigir2()">Ir a home</button></h4>
